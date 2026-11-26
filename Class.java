@@ -13,8 +13,12 @@ public abstract class Class {
         return className;
     }
 
-    public void Attack() {
-        System.out.println(className + " makes an attack with " + starterWeapon + " and deals " + damage + " damage.");
+    public int getDamage() {
+        return damage;
+    }
+
+    public void attack() {
+        System.out.println(className + " makes an attack with " + starterWeapon + " and deals " + damage + " damage!");
     }
 
     public abstract void useAbility();
