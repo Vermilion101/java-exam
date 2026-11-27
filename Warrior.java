@@ -1,9 +1,9 @@
 public class Warrior extends Class {
     private int rage;
 
-    public Warrior(String className, String starterWeapon, int damage, int rage) {
+    public Warrior(String className, String starterWeapon, int damage) {
         super(className, starterWeapon, damage);
-        this.rage = rage;
+        this.rage = 0;
     }
 
     @Override 
